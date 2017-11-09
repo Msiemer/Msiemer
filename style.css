@@ -1,0 +1,22 @@
+*/
+   .content {
+			flex-direction: row;
+
+
+		}
+	.main-content {
+			flex: 3;
+			border:solid;
+			position: left;
+			justify-content:flex-end;
+			
+		}
+	.link {
+			display:flex;
+			justify-content:flex-end;
+		}
+	.bob {
+           display:flex: 3;
+           justify-content:flex-end;
+       }
+
