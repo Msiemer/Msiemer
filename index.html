@@ -1,142 +1,154 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
-	<style>
-	   body {
-		display:flex;
-	   }
-	   .page {
-	   		flex:8; 
-	    }
-	    .page-gutter {
-	    	flex:1; 
-	    }
-		.navbar {
-			display:flex;
-			background-color:#333333;
-			height:40px;
-		}
-		.leftspacer {
-			flex:4;
-		}
-		.link {
-			flex:1;
-		}
-		.link a {
-			color: #ffffff;
-		}
-		.rightspacer {
-			flex:6;
-		}
-		.content {
-			display:flex;
-		}
-		.main-content {
-			flex:5;
-			border: solid 2px orange;
-			display: flex;
-			flex-wrap: wrap;
+    <title></title>
+    <style>
+    body {
+        display: flex;
+    }
 
-		}
-		.right-nav {
-			flex:1;
-			border: solid 2px orange;
-		}
-		.left-nav {
-			flex:1;
-			border: solid 2px orange;
-		}
-		.jumbotron {
-			border-radius: 10px;
-			border: solid 1px #cccccc;
-			background-color: #cccccc;
-			margin: 10px;
-			padding: 10px;
-			flex-basis:1200px;
-		}
-		.card {
-			flex:1;
-			padding: 20px;
-			flex-basis: 300px;
-		}
-	</style>
+    .page {
+        flex: 8;
+    }
+
+    .page-gutter {
+        flex: 1;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: #333333;
+        height: 40px;
+    }
+
+    .leftspacer {
+        flex: 4;
+    }
+
+    .link {
+        flex: 1;
+    }
+
+    .link a {
+        color: #ffffff;
+    }
+
+    .rightspacer {
+        flex: 6;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .main-content {
+        flex: 5;
+        border: solid 2px orange;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .right-nav {
+        flex: 1;
+        border: solid 2px orange;
+    }
+
+    .left-nav {
+        flex: 1;
+        border: solid 2px orange;
+    }
+
+    .jumbotron {
+        border-radius: 10px;
+        border: solid 1px #cccccc;
+        background-color: #cccccc;
+        margin: 10px;
+        padding: 10px;
+        flex-basis: 1200px;
+    }
+
+    .card {
+        flex: 1;
+        padding: 20px;
+        flex-basis: 300px;
+    }
+    </style>
 </head>
+
 <body>
-	<div class="page-gutter"></div>
-   <div class="page">
-	   <div class="navbar">
-	    	<div class="leftspacer">&nbsp;</div>
-	   	    <div>project name</div>
-	   		<div class="link"><a>Home</a></div>
-	   		<div class="link"><a>About</a></div>
-	   		<div class="link"><a>Content</a></div>
-	   		<div class="rightspacer">&nbsp;</div>
-	   </div>
-	    <div class="content">
-	   	<div class="left-nav">
-	   	  	<h2>left nav</h2>
-	   	  	<ul>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-
-	   	  	</ul>
-	   	  </div>
-	   	  <div class="main-content">
-	   	  <div class="jumbotron">
-	   	  	<h1>Hello, World!</h1>
-	   	this is an example of  realy cool flex box page.</div>
-	   	<div class="card">
-	   		<h3>heading</h3>
-	   		<p>Here is some text for our card view</p>
-	   		<input type="button" value="View Details" >
-	   	</div>
-	   	<div class="card">
-	   		<h3>heading</h3>
-	   		<p>Here is some text for our card view</p>
-	   		<input type="button" value="View Details" >
-	   	</div>
-	   	<div class="card">
-	   		<h3>heading</h3>
-	   		<p>Here is some text for our card view</p>
-	   		<input type="button" value="View Details" >
-	   	</div>
-	   	<div class="card">
-	   		<h3>heading</h3>
-	   		<p>Here is some text for our card view</p>
-	   		<input type="button" value="View Details" >
-	   	</div>
-	   	<div class="card">
-	   		<h3>heading</h3>
-	   		<p>Here is some text for our card view</p>
-	   		<input type="button" value="View Details" >
-	   	</div>
-	    <div class="card">
-	   		<h3>heading</h3>
-	   		<p>Here is some text for our card view</p>
-	   		<input type="button" value="View Details" >
-	   	</div>
-	   	  </div>
-	   	  <div class="right-nav">
-	   	  	<h2>right nav</h2>
-	   	    <ul>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-	   	  		<li>list 1</li>
-
-	   	  	</ul>
-	   	  </div>
-	   </div>
-   </div>
-   <div class="page-gutter"></div>
+    <div class="page-gutter"></div>
+    <div class="page">
+        <div class="navbar">
+            <div class="leftspacer">&nbsp;</div>
+            <div>project name</div>
+            <div class="link"><a>Home</a></div>
+            <div class="link"><a>About</a></div>
+            <div class="link"><a>Content</a></div>
+            <div class="rightspacer">&nbsp;</div>
+        </div>
+        <div class="content">
+            <div class="left-nav">
+                <h2>left nav</h2>
+                <ul>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="jumbotron">
+                    <h1>Hello, World!</h1> this is an example of realy cool flex box page.</div>
+                <div class="card">
+                    <h3>heading</h3>
+                    <p>Here is some text for our card view</p>
+                    <input type="button" value="View Details">
+                </div>
+                <div class="card">
+                    <h3>heading</h3>
+                    <p>Here is some text for our card view</p>
+                    <input type="button" value="View Details">
+                </div>
+                <div class="card">
+                    <h3>heading</h3>
+                    <p>Here is some text for our card view</p>
+                    <input type="button" value="View Details">
+                </div>
+                <div class="card">
+                    <h3>heading</h3>
+                    <p>Here is some text for our card view</p>
+                    <input type="button" value="View Details">
+                </div>
+                <div class="card">
+                    <h3>heading</h3>
+                    <p>Here is some text for our card view</p>
+                    <input type="button" value="View Details">
+                </div>
+                <div class="card">
+                    <h3>heading</h3>
+                    <p>Here is some text for our card view</p>
+                    <input type="button" value="View Details">
+                </div>
+            </div>
+            <div class="right-nav">
+                <h2>right nav</h2>
+                <ul>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page-gutter"></div>
 </body>
+
 </html>
